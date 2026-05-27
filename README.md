@@ -1,6 +1,6 @@
 # Physics-Informed Deep Flow Prediction
 
-This repository contains a cleaned, reproducible version of a Stanford CS229
+This repository contains a cleaned version of a Stanford CS229
 project on airfoil flow-field prediction. The project builds on the
 Deep-Flow-Prediction framework from Thuerey et al. and studies lightweight
 physics-informed losses for predicting 2D RANS pressure and velocity fields
