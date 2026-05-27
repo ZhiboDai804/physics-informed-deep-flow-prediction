@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Full data and generated artifacts
+data/full/
+outputs/
+checkpoints/
+**/results_train/
+**/results_test/
+**/saved_models_and_results/
+
+# Model checkpoints and experiment logs
+*.pt
+*.pth
+modelG*
+L1*.txt
+Lphys*.txt
+testout*.txt
+
+# OS/editor
+.DS_Store
+.vscode/

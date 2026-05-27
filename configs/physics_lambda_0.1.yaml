@@ -1,0 +1,33 @@
+experiment_name: physics_lambda_0.1
+seed: 229
+
+data:
+  train_dir: data/full/train
+  test_dir: data/full/test
+  validation_fraction: 0.2
+  max_validation: 400
+  shuffle_files: true
+
+model:
+  channel_exponent: 5
+  dropout: 0.0
+
+training:
+  iterations: 500000
+  batch_size: 10
+  learning_rate: 0.0006
+  decay_lr: true
+  betas: [0.5, 0.999]
+  weight_decay: 0.0
+  device: auto
+
+loss:
+  type: physics
+  pressure_weight: 1.0
+  velocity_weight: 1.0
+  physics_weight: 0.1
+
+output:
+  dir: outputs
+  checkpoint_dir: checkpoints
+  num_eval_figures: 5
