@@ -130,8 +130,6 @@ Large artifacts are intentionally excluded from the repository:
 - Model checkpoints
 - Full training/evaluation output folders
 
-Recommended distribution options are GitHub Releases, Google Drive, Stanford
-Drive, or Hugging Face Datasets/Models.
 
 ## Acknowledgements
 
